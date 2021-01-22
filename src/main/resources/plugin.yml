@@ -1,0 +1,5 @@
+name: WorldSpawns
+main: me.petterim1.worldspawns.Main
+version: "${pom.version}"
+api: ["1.0.0"]
+author: PetteriM1
