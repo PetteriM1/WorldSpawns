@@ -20,7 +20,6 @@ public class Main extends PluginBase implements Listener {
 
     @EventHandler
     public void onRespawn(PlayerRespawnEvent e) {
-        System.out.println(e.getPlayer().getLevel().getName());
         if (!excludedWorlds.contains(e.getPlayer().getLevel().getName())) {
             e.setRespawnPosition(e.getPlayer().getLevel().getSafeSpawn());
         }

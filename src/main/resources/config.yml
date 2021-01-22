@@ -1,4 +1,5 @@
 # Worlds that will not have their own player respawn point
 excludedWorlds:
+  - "world"
   - "nether"
   - "the_end"
